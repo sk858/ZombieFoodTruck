@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d97fc59e41a72b24f8a22994b84aa3e9
+timeCreated: 1507859961
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_patienceBuff: {fileID: 1120702794407154, guid: 48ac9fbc4c45c684b97c50dfe5340917,
+      type: 2}
+  - m_walletDrop: {fileID: 1274173781214552, guid: 5f72dfb2dc7b47b4781a2151e736f2b7,
+      type: 2}
+  - m_consumableAlert: {instanceID: 0}
+  - m_consumableAlertText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

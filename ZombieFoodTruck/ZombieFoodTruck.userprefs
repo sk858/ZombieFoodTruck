@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EndingSequenceManager.cs">
+    <Files>
+      <File FileName="Assets/Logging/TruckLogger.cs" Line="85" Column="60" />
+      <File FileName="Assets/Scripts/Levels/LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Levels/Level100.cs" Line="117" Column="19" />
+      <File FileName="Assets/Scripts/CustomerTypes/Customer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PatienceBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Levels/Level0.cs" Line="70" Column="99" />
+      <File FileName="Assets/Scripts/Levels/Level2.cs" Line="73" Column="75" />
+      <File FileName="Assets/Scripts/WinLosePanel.cs" Line="70" Column="51" />
+      <File FileName="Assets/Scripts/InputManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MenuInputManager.cs" Line="79" Column="32" />
+      <File FileName="Assets/Scripts/CuttingBoardManager.cs" Line="209" Column="25" />
+      <File FileName="Assets/Scripts/FoodTaskUpgradeHelper.cs" Line="26" Column="5" />
+      <File FileName="Assets/Scripts/Upgrades/UpgradeManager.cs" Line="1155" Column="47" />
+      <File FileName="Assets/Scripts/FryerManager.cs" Line="40" Column="5" />
+      <File FileName="Assets/EndingSequenceManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

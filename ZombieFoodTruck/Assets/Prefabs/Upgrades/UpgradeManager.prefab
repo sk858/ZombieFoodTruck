@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1440325861054034}
+  m_IsPrefabParent: 1
+--- !u!1 &1440325861054034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4219052256791406}
+  - component: {fileID: 114205726901574830}
+  m_Layer: 0
+  m_Name: UpgradeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4219052256791406
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440325861054034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114205726901574830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440325861054034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f99f887d3420450f8c59b9c7f197bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allUpgrades: []
+  m_cleaningUpgradeId: 3
+  m_patienceUpgradeId: 2
+  m_foodUpgradeId: 1
+  m_truckScene: TruckScene
+  m_upgradeScripts:
+  - {fileID: 114902097797159202, guid: a438bbc5e78644b49a4971456dfb1eca, type: 2}
+  - {fileID: 114480874165441082, guid: f71c32b4fabc3457f96c6554ca89bd18, type: 2}
+  - {fileID: 114588839424429548, guid: 97754bbf54b8e4fa89ede48241723d6e, type: 2}
+  m_upgradeScreen: {fileID: 0}
+  m_continueButton: {fileID: 0}
+  m_foodprepUp: {fileID: 114902097797159202, guid: a438bbc5e78644b49a4971456dfb1eca,
+    type: 2}
+  m_patienceUp: {fileID: 114480874165441082, guid: f71c32b4fabc3457f96c6554ca89bd18,
+    type: 2}
+  m_cleaningUp: {fileID: 114588839424429548, guid: 97754bbf54b8e4fa89ede48241723d6e,
+    type: 2}
+  m_maxCleaningTiers: 3
+  m_maxFoodPrepTiers: 3
+  m_maxPatienceTiers: 3
+  fryerUnlockedlevel: 3
+  iceUnlockedlevel: 7
+  drinkUnlockedlevel: 7
+  m_iceUpdate: {fileID: 0}
+  m_IceLimit: 0400000008000000
+  m_MovementSpeed: []
+  fryerlockedicon: {fileID: 0}
+  icelockedicon: {fileID: 0}
+  drinklockedicon: {fileID: 0}
+  NewStove: {fileID: 0}
+  NewFryer: {fileID: 0}
+  NewDrink: {fileID: 0}
+  NewCleaning: {fileID: 0}
+  CostForUpgrade: {fileID: 0}
+  Description: {fileID: 0}
+  CurrentBank: {fileID: 0}
+  UpgradeTitle: {fileID: 0}
+  TierText: {fileID: 0}
+  TierBar: {fileID: 0}
+  FoodFullyUpgradedTier: {fileID: 0}
+  CleaningFullyUpgradedTier: {fileID: 0}
+  PatienceFullyUpgradedTier: {fileID: 0}
+  StoveAlreadyBought: {fileID: 0}
+  FryerAlreadyBought: {fileID: 0}
+  IceAlreadyBought: {fileID: 0}
+  DrinkAlreadyBought: {fileID: 0}
+  MatAlreadyBought: {fileID: 0}
+  MovementAlreadyBought: {fileID: 0}
+  AutoCutAlreadyBought: {fileID: 0}
+  ExtraTipAlreadyBought: {fileID: 0}
+  IncognitoAlreadyBought: {fileID: 0}
+  HatAlreadyBought: {fileID: 0}
+  FoodPicture: {fileID: 0}
+  FoodButton: {fileID: 0}
+  CleaningPicture: {fileID: 0}
+  CleaningButton: {fileID: 0}
+  PatiencePicture: {fileID: 0}
+  PatienceButton: {fileID: 0}
+  StovePicture: {fileID: 0}
+  StoveButton: {fileID: 0}
+  FryerPicture: {fileID: 0}
+  FryerButton: {fileID: 0}
+  IcePicture: {fileID: 0}
+  IceButton: {fileID: 0}
+  DrinkPicture: {fileID: 0}
+  DrinkButton: {fileID: 0}
+  MatPicture: {fileID: 0}
+  MatButton: {fileID: 0}
+  MovementPicture: {fileID: 0}
+  MovementButton: {fileID: 0}
+  ChanceTipPicture: {fileID: 0}
+  ChanceTipButton: {fileID: 0}
+  AutoCutPicture: {fileID: 0}
+  AutoCutButton: {fileID: 0}
+  IncognitoPicture: {fileID: 0}
+  IncognitoButton: {fileID: 0}
+  HatPicture: {fileID: 0}
+  HatButton: {fileID: 0}
+  NewFryerButton: {fileID: 0}
+  NewDrinkButton: {fileID: 0}
+  NewIceButton: {fileID: 0}
+  NewMovementButton: {fileID: 0}
+  NewChanceTipButton: {fileID: 0}
+  NewAutoCutButton: {fileID: 0}
+  NewIncognitoButton: {fileID: 0}
+  NewHatButton: {fileID: 0}

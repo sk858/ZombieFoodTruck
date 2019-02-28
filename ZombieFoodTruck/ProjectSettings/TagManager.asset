@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Grabbable
+  - Customer
+  - Station
+  - BoundingBox
+  - WorkerBase
+  - DDRTile
+  - DaySlider
+  - RegisterLine
+  - StoveLine
+  - LoggingManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Grabbable
+  - Customer
+  - Station
+  - WorkerBase
+  - DDR
+  - Walls
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 341278695
+    locked: 0
+  - name: Floor
+    uniqueID: 3285708009
+    locked: 0
+  - name: FloorProp
+    uniqueID: 595564857
+    locked: 0
+  - name: BackWall
+    uniqueID: 3346275101
+    locked: 0
+  - name: BackProps
+    uniqueID: 1462616227
+    locked: 0
+  - name: HeldItem
+    uniqueID: 2324223201
+    locked: 0
+  - name: Workers
+    uniqueID: 3619942973
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FrontWall
+    uniqueID: 2015251641
+    locked: 0
+  - name: Customers
+    uniqueID: 3109979523
+    locked: 0
+  - name: FoodTrays
+    uniqueID: 2794913065
+    locked: 0
+  - name: Trees
+    uniqueID: 355114003
+    locked: 0
+  - name: InGameUI1
+    uniqueID: 394012221
+    locked: 0
+  - name: InGameUI2
+    uniqueID: 3839581825
+    locked: 0
+  - name: PauseScreen
+    uniqueID: 696877517
+    locked: 0
+  - name: OverlayUI
+    uniqueID: 2455812789
+    locked: 0
